@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17215160017"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17215160017');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>住宅ローン返済でお困りの方へ｜任意売却専門｜センチュリー21ホームマート</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        
+        .bg-century-gold {
+            background-color: #BEAF87;
+        }
+        
+        .bg-century-light {
+            background-color: #F8F6F1;
+        }
+        
+        .bg-century-warm {
+            background-color: #FFF9F0;
+        }
+        
+        .text-century-gold {
+            color: #BEAF87;
+        }
+        
+        .text-century-dark {
+            color: #3A3A3A;
+        }
+        
+        .border-century-gold {
+            border-color: #BEAF87;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(255,249,240,0.95) 0%, rgba(248,246,241,0.95) 100%);
+        }
+        
+        .warm-gradient {
+            background: linear-gradient(135deg, #FFF9F0 0%, #F8F6F1 100%);
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: .8;
+            }
+        }
+        
+        .shadow-soft {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+        
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(45deg, #BEAF87, #D4C5A0);
+            color: white;
+            font-weight: 700;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            box-shadow: 0 4px 15px rgba(190, 175, 135, 0.3);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(190, 175, 135, 0.4);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #BEAF87;
+            font-weight: 600;
+            padding: 14px 28px;
+            border: 2px solid #BEAF87;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            background: #BEAF87;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 20px;
+            height: 20px;
+            background: #BEAF87;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 0 0 4px rgba(190, 175, 135, 0.2);
+        }
+        
+        .floating-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            border: 1px solid rgba(190, 175, 135, 0.1);
+        }
+        
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #BEAF87, transparent);
+            margin: 60px 0;
+        }
+        
+        .contact-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(45deg, #BEAF87, #D4C5A0);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+            margin: 0 auto 20px;
+            box-shadow: 0 8px 20px rgba(190, 175, 135, 0.3);
+        }
+        
+        .stats-number {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #BEAF87;
+            line-height: 1;
+        }
+        
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #BEAF87, #D4C5A0);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 30px;
+            margin: 0 auto 24px;
+            box-shadow: 0 10px 30px rgba(190, 175, 135, 0.3);
+        }
+        
+        .testimonial-card {
+            background: #FFF9F0;
+            border-left: 5px solid #BEAF87;
+            padding: 30px;
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            font-size: 60px;
+            color: #BEAF87;
+            font-weight: bold;
+            opacity: 0.3;
+        }
+        
+        .header-sticky {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+        }
+        
+        .reassurance-badge {
+            background: linear-gradient(45deg, #4CAF50, #66BB6A);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-weight: bold;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="header-sticky py-4 sticky top-0 z-50 shadow-soft border-b border-gray-100">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <img src="https://raw.githubusercontent.com/c21-japan/century21-homemart-lp/main/century21logo_gold.png" alt="CENTURY21" class="h-10">
+                <div class="text-lg font-bold text-century-dark">ホームマート</div>
+            </div>
+            <div class="flex items-center space-x-6">
+                <div class="hidden md:flex items-center space-x-2">
+                    <i class="fas fa-phone text-century-gold"></i>
+                    <div>
+                        <div class="text-sm text-gray-600">今すぐお電話</div>
+                        <div class="font-bold text-lg text-century-dark">0120-43-8639</div>
+                    </div>
+                </div>
+                <a href="tel:0120-43-8639" class="btn-primary">
+                    <i class="fas fa-phone mr-2"></i>
+                    無料相談
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with warm colors -->
+    <section class="relative min-h-screen flex items-center warm-gradient overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <div class="reassurance-badge mb-6">
+                        <i class="fas fa-shield-alt mr-2"></i>
+                        安心の無料相談・秘密厳守
+                    </div>
+                    
+                    <h1 class="text-4xl md:text-5xl font-black text-century-dark mb-6 leading-tight">
+                        住宅ローンのお悩み、<br>
+                        <span class="text-century-gold">一緒に解決しましょう</span>
+                    </h1>
+                    
+                    <p class="text-lg md:text-xl mb-8 text-gray-700 leading-relaxed">
+                        センチュリー21の全国ネットワークと<br>
+                        地域密着の温かいサポートで<br>
+                        あなたの新しいスタートを応援します
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-12">
+                        <a href="tel:0120-43-8639" class="btn-primary text-lg pulse-animation">
+                            <i class="fas fa-phone mr-2"></i>
+                            今すぐ無料相談
+                        </a>
+                        <a href="https://line.me/ti/p/0_Cxj91mML" class="btn-secondary">
+                            <i class="fab fa-line mr-2"></i>
+                            LINE相談
+                        </a>
+                    </div>
+                    
+                    <div class="grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-century-gold">100%</div>
+                            <p class="text-sm text-gray-600">相談料無料</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-century-gold">24h</div>
+                            <p class="text-sm text-gray-600">LINE対応</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-century-gold">秘密</div>
+                            <p class="text-sm text-gray-600">厳守</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <img src="https://raw.githubusercontent.com/c21-japan/century21-homemart-lp/main/19_family改.jpg" 
+                         alt="家族の安心" 
+                         class="rounded-2xl shadow-soft w-full">
+                    <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-soft">
+                        <p class="text-sm font-bold text-century-dark">お客様満足度</p>
+                        <div class="flex items-center">
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="ml-2 font-bold">4.9</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section with Staff Photos -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black text-century-dark mb-6">
+                        私たちが<span class="text-century-gold">全力サポート</span>します
+                    </h2>
+                    <p class="text-xl text-gray-600">経験豊富なスタッフが親身になってご相談をお受けします</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    <div class="floating-card text-center card-hover">
+                        <img src="https://raw.githubusercontent.com/c21-japan/century21-homemart-lp/main/01_shinchan.jpg" 
+                             alt="代表 乾" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-bold text-century-dark mb-2">代表 乾 佑企</h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            お客様の人生の転機を<br>
+                            全力でサポートいたします
+                        </p>
+                        <div class="text-century-gold">
+                            <i class="fas fa-award"></i> 10年以上の実績
+                        </div>
+                    </div>
+                    
+                    <div class="floating-card text-center card-hover">
+                        <img src="https://raw.githubusercontent.com/c21-japan/century21-homemart-lp/main/14_shiro.jpg" 
+                             alt="専門スタッフ" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-bold text-century-dark mb-2">専門相談員</h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            任意売却の専門知識で<br>
+                            最適な解決策をご提案
+                        </p>
+                        <div class="text-century-gold">
+                            <i class="fas fa-certificate"></i> 有資格者在籍
+                        </div>
+                    </div>
+                    
+                    <div class="floating-card text-center card-hover">
+                        <img src="https://raw.githubusercontent.com/c21-japan/century21-homemart-lp/main/18_shiro.jpg" 
+                             alt="サポートスタッフ" 
+                             class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-bold text-century-dark mb-2">サポートチーム</h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            売却後の生活まで<br>
+                            しっかりサポート
+                        </p>
+                        <div class="text-century-gold">
+                            <i class="fas fa-heart"></i> 親身な対応
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-century-warm p-8 rounded-2xl text-center">
+                    <img src="https://raw.githubusercontent.com/c21-japan/century21-homemart-lp/main/century21-talent-formal.png" 
+                         alt="センチュリー21イメージキャラクター" 
+                         class="w-48 mx-auto mb-4">
+                    <h3 class="text-2xl font-bold text-century-dark mb-4">
+                        センチュリー21は全国No.1の店舗数
+                    </h3>
+                    <p class="text-gray-700 mb-6">
+                        全国948店舗のネットワークを活かし、<br>
+                        あなたの不動産を最適な条件で売却します
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reassurance Section -->
+    <section class="py-20 bg-century-light">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="inline-block bg-green-100 text-green-800 px-6 py-3 rounded-full text-lg font-bold mb-8">
+                    <i class="fas fa-check-circle mr-2"></i>
+                    安心ポイント
+                </div>
+                
+                <h2 class="text-4xl font-black text-century-dark mb-12">
+                    センチュリー21ホームマートが<br>
+                    <span class="text-century-gold">選ばれる理由</span>
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="floating-card text-left">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                            <h3 class="text-xl font-bold">完全秘密厳守</h3>
+                        </div>
+                        <p class="text-gray-600">ご近所に知られることなく、プライバシーを守りながら売却を進めます。</p>
+                    </div>
+                    
+                    <div class="floating-card text-left">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-yen-sign"></i>
+                            </div>
+                            <h3 class="text-xl font-bold">費用負担なし</h3>
+                        </div>
+                        <p class="text-gray-600">相談料・査定料は完全無料。売却にかかる仲介手数料も成功報酬です。</p>
+                    </div>
+                    
+                    <div class="floating-card text-left">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h3 class="text-xl font-bold">スピード対応</h3>
+                        </div>
+                        <p class="text-gray-600">最短3日で現金化も可能。競売開始前の迅速な対応で問題を解決します。</p>
+                    </div>
+                    
+                    <div class="floating-card text-left">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white mr-4">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <h3 class="text-xl font-bold">引越しサポート</h3>
+                        </div>
+                        <p class="text-gray-600">引越し費用の確保から新居探しまで、売却後の生活もサポートします。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions with Office Photo -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                    <div>
+                        <h2 class="text-3xl font-black text-century-dark mb-6">
+                            あなたに最適な<span class="text-century-gold">解決方法</span>をご提案
+                        </h2>
+                        <p class="text-lg text-gray-600 mb-8">
+                            お客様の状況やご希望に応じて、様々な解決策をご用意しています。
+                            まずは無料相談で、最適なプランを一緒に考えましょう。
+                        </p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-century-gold rounded-full flex items-center justify-center mr-4 mt-1">
+                                    <i class="fas fa-check text-white text-sm"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-century-dark mb-1">任意売却</h4>
+                                    <p class="text-gray-600 text-sm">競売より高値で売却し、残債を最小限に</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-century-gold rounded-full flex items-center justify-center mr-4 mt-1">
+                                    <i class="fas fa-check text-white text-sm"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-century-dark mb-1">リースバック</h4>
+                                    <p class="text-gray-600 text-sm">売却後も同じ家に住み続けられる</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-century-gold rounded-full flex items-center justify-center mr-4 mt-1">
+                                    <i class="fas fa-check text-white text-sm"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-century-dark mb-1">返済条件変更</h4>
+                                    <p class="text-gray-600 text-sm">金融機関との交渉で月々の負担を軽減</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <a href="https://form.run/@century21top" class="btn-primary">
+                                <i class="fas fa-clipboard-list mr-2"></i>
+                                無料診断を受ける
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <img src="https://raw.githubusercontent.com/c21-japan/century21-homemart-lp/main/03_century21_kane_1046.jpg" 
+                             alt="センチュリー21店舗" 
+                             class="rounded-2xl shadow-soft w-full">
+                        <div class="mt-4 p-4 bg-century-warm rounded-xl">
+                            <p class="text-sm text-gray-700">
+                                <i class="fas fa-map-marker-alt text-century-gold mr-2"></i>
+                                奈良県北葛城郡広陵町に店舗を構え、地域に密着したサービスを提供
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section class="py-20 bg-century-light">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black text-century-dark mb-6">
+                        解決事例と<span class="text-century-gold">お客様の声</span>
+                    </h2>
+                    <p class="text-xl text-gray-600">多くの方が新しい人生をスタートされています</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div class="testimonial-card">
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <div class="text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="ml-2 text-sm text-gray-600">5.0</span>
+                            </div>
+                            <p class="text-sm text-gray-600">40代 男性 / 奈良市在住</p>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            コロナの影響で収入が激減し、途方に暮れていました。センチュリー21さんに相談したところ、親身になって話を聞いてくださり、任意売却で無事解決。新しい生活を始めることができました。
+                        </p>
+                        <div class="flex items-center">
+                            <div class="reassurance-badge text-sm">
+                                <i class="fas fa-check mr-1"></i>
+                                任意売却で解決
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <div class="text-yellow-400">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="ml-2 text-sm text-gray-600">5.0</span>
+                            </div>
+                            <p class="text-sm text-gray-600">50代 女性 / 香芝市在住</p>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            離婚後、一人では住宅ローンが払えなくなりました。リースバックという方法を提案していただき、子供の学校も変わらず、同じ家に住み続けられて本当に助かりました。
+                        </p>
+                        <div class="flex items-center">
+                            <div class="reassurance-badge text-sm">
+                                <i class="fas fa-check mr-1"></i>
+                                リースバックで継続居住
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <img src="https://raw.githubusercontent.com/c21-japan/century21-homemart-lp/main/10_century21_kane_1399.jpg" 
+                         alt="お客様との面談風景" 
+                         class="rounded-2xl shadow-soft w-full max-w-2xl mx-auto mb-8">
+                    <p class="text-lg text-gray-600 mb-8">
+                        年間1,000件以上の相談実績で培った経験を活かし、<br>
+                        お客様一人ひとりに最適な解決策をご提案します
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black text-century-dark mb-6">
+                        <span class="text-century-gold">簡単3ステップ</span>で解決へ
+                    </h2>
+                    <p class="text-xl text-gray-600">お問い合わせから解決まで、スムーズにサポートします</p>
+                </div>
+                
+                <div class="space-y-8">
+                    <div class="timeline-item">
+                        <div class="floating-card">
+                            <div class="flex items-start">
+                                <div class="w-16 h-16 bg-century-gold rounded-full flex items-center justify-center text-white font-bold text-xl mr-6">
+                                    01
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="text-2xl font-bold text-century-dark mb-4">まずは無料相談</h3>
+                                    <p class="text-gray-600 mb-4">
+                                        お電話・LINE・メールで、現在の状況をお聞かせください。
+                                        相談は完全無料、秘密厳守でお受けします。
+                                    </p>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">
+                                            <i class="fas fa-phone mr-1"></i>電話相談
+                                        </span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
+                                            <i class="fab fa-line mr-1"></i>LINE相談
+                                        </span>
+                                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">
+                                            <i class="fas fa-envelope mr-1"></i>メール相談
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="floating-card">
+                            <div class="flex items-start">
+                                <div class="w-16 h-16 bg-century-gold rounded-full flex items-center justify-center text-white font-bold text-xl mr-6">
+                                    02
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="text-2xl font-bold text-century-dark mb-4">最適プランのご提案</h3>
+                                    <p class="text-gray-600 mb-4">
+                                        物件査定と債権者調査を行い、お客様に最適な解決プランをご提案します。
+                                        複数の選択肢から選べるので安心です。
+                                    </p>
+                                    <div class="grid grid-cols-2 gap-3 text-sm">
+                                        <div class="flex items-center text-gray-700">
+                                            <i class="fas fa-check text-century-gold mr-2"></i>
+                                            無料査定
+                                        </div>
+                                        <div class="flex items-center text-gray-700">
+                                            <i class="fas fa-check text-century-gold mr-2"></i>
+                                            債権者調査
+                                        </div>
+                                        <div class="flex items-center text-gray-700">
+                                            <i class="fas fa-check text-century-gold mr-2"></i>
+                                            プラン比較
+                                        </div>
+                                        <div class="flex items-center text-gray-700">
+                                            <i class="fas fa-check text-century-gold mr-2"></i>
+                                            費用説明
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="floating-card">
+                            <div class="flex items-start">
+                                <div class="w-16 h-16 bg-century-gold rounded-full flex items-center justify-center text-white font-bold text-xl mr-6">
+                                    03
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="text-2xl font-bold text-century-dark mb-4">実行とアフターフォロー</h3>
+                                    <p class="text-gray-600 mb-4">
+                                        債権者との交渉から売却手続きまで全てお任せください。
+                                        売却後の新生活のサポートも行います。
+                                    </p>
+                                    <div class="bg-century-warm p-4 rounded-lg">
+                                        <p class="font-bold text-century-dark mb-2">
+                                            <i class="fas fa-hands-helping text-century-gold mr-2"></i>
+                                            完全サポート体制
+                                        </p>
+                                        <p class="text-sm text-gray-700">
+                                            専任スタッフが最後まで責任を持ってサポートいたします
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-century-light">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black text-century-dark mb-6">
+                        よくある<span class="text-century-gold">ご質問</span>
+                    </h2>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="floating-card">
+                        <h3 class="text-lg font-bold text-century-dark mb-3 flex items-center">
+                            <span class="w-8 h-8 bg-century-gold text-white rounded-full flex items-center justify-center text-sm mr-3">Q</span>
+                            本当に相談は無料ですか？
+                        </h3>
+                        <p class="text-gray-600 ml-11">
+                            はい、完全無料です。相談・査定・プラン提案まで一切費用はかかりません。売却が成立した場合のみ、法定の仲介手数料をいただきます。
+                        </p>
+                    </div>
+                    
+                    <div class="floating-card">
+                        <h3 class="text-lg font-bold text-century-dark mb-3 flex items-center">
+                            <span class="w-8 h-8 bg-century-gold text-white rounded-full flex items-center justify-center text-sm mr-3">Q</span>
+                            家族や近所に知られませんか？
+                        </h3>
+                        <p class="text-gray-600 ml-11">
+                            秘密厳守で対応いたします。通常の不動産売却と同じ方法で進めるため、任意売却であることが周囲に知られることはありません。
+                        </p>
+                    </div>
+                    
+                    <div class="floating-card">
+                        <h3 class="text-lg font-bold text-century-dark mb-3 flex items-center">
+                            <span class="w-8 h-8 bg-century-gold text-white rounded-full flex items-center justify-center text-sm mr-3">Q</span>
+                            どのくらいの期間で解決できますか？
+                        </h3>
+                        <p class="text-gray-600 ml-11">
+                            通常3〜6ヶ月程度です。ただし、競売開始前であることが条件となりますので、お早めのご相談をおすすめします。
+                        </p>
+                    </div>
+                    
+                    <div class="floating-card">
+                        <h3 class="text-lg font-bold text-century-dark mb-3 flex items-center">
+                            <span class="w-8 h-8 bg-century-gold text-white rounded-full flex items-center justify-center text-sm mr-3">Q</span>
+                            残債が残った場合はどうなりますか？
+                        </h3>
+                        <p class="text-gray-600 ml-11">
+                            債権者との交渉により、無理のない範囲での分割返済が可能です。生活に支障のない返済計画を立てるお手伝いをいたします。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="py-20 warm-gradient">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-black text-century-dark mb-8">
+                        今すぐ<span class="text-century-gold">無料相談</span>を
+                    </h2>
+                    <p class="text-xl text-gray-700 mb-8">
+                        一人で悩まないでください。<br>
+                        私たちが全力であなたをサポートします。
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                    <div class="text-center">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-century-dark mb-2">お電話での相談</h3>
+                        <p class="text-gray-600 mb-4">9:00〜22:00（年中無休）</p>
+                        <div class="text-3xl font-black text-century-gold mb-4">0120-43-8639</div>
+                        <a href="tel:0120-43-8639" class="btn-primary">
+                            今すぐ電話する
+                        </a>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="contact-icon">
+                            <i class="fab fa-line"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-century-dark mb-2">LINEでの相談</h3>
+                        <p class="text-gray-600 mb-4">24時間365日対応</p>
+                        <p class="text-lg mb-4">お気軽にメッセージを</p>
+                        <a href="https://line.me/ti/p/0_Cxj91mML" class="btn-primary">
+                            LINE相談する
+                        </a>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-century-dark mb-2">メールでの相談</h3>
+                        <p class="text-gray-600 mb-4">24時間受付中</p>
+                        <p class="text-lg mb-4">詳しい資料もお送りします</p>
+                        <a href="https://form.run/@century21top" class="btn-primary">
+                            メール相談する
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-2xl text-center shadow-soft">
+                    <div class="reassurance-badge mb-4">
+                        <i class="fas fa-shield-alt mr-2"></i>
+                        安心の秘密厳守
+                    </div>
+                    <p class="text-lg text-gray-700">
+                        お客様のプライバシーを最優先に考え、<br>
+                        相談内容は完全に秘密厳守いたします。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Info Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-century-dark mb-6">会社情報</h3>
+                        <div class="space-y-4 text-gray-600">
+                            <div class="flex items-start">
+                                <i class="fas fa-building text-century-gold w-6 mr-3 mt-1"></i>
+                                <div>
+                                    <p class="font-semibold">会社名</p>
+                                    <p>センチュリー21ホームマート</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-user text-century-gold w-6 mr-3 mt-1"></i>
+                                <div>
+                                    <p class="font-semibold">代表者</p>
+                                    <p>乾 佑企</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-century-gold w-6 mr-3 mt-1"></i>
+                                <div>
+                                    <p class="font-semibold">所在地</p>
+                                    <p>奈良県北葛城郡広陵町笠287-1</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fas fa-clock text-century-gold w-6 mr-3 mt-1"></i>
+                                <div>
+                                    <p class="font-semibold">営業時間</p>
+                                    <p>9:00〜22:00（年中無休）</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-2xl font-bold text-century-dark mb-6">サービスエリア</h3>
+                        <div class="space-y-3 text-gray-600">
+                            <div class="flex items-center">
+                                <i class="fas fa-map-pin text-century-gold mr-3"></i>
+                                <span>奈良県全域</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-map-pin text-century-gold mr-3"></i>
+                                <span>大阪府南部</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-map-pin text-century-gold mr-3"></i>
+                                <span>京都府南部</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-map-pin text-century-gold mr-3"></i>
+                                <span>その他近畿圏内</span>
+                            </div>
+                        </div>
+                        <div class="mt-6 p-4 bg-century-light rounded-lg">
+                            <p class="text-sm text-gray-600">
+                                <i class="fas fa-info-circle text-century-gold mr-2"></i>
+                                エリア外でもお気軽にご相談ください
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-12 text-center">
+                    <img src="https://raw.githubusercontent.com/c21-japan/century21-homemart-lp/main/⑦-1%20C21シール黒地白抜き（改）%20(1).png" 
+                         alt="センチュリー21認定" 
+                         class="w-32 mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-century-gold text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center">
+                    <div class="text-3xl font-bold mb-4">CENTURY21 ホームマート</div>
+                    <p class="mb-8 opacity-90">お客様の悩みや不安を解決し、人生の転機を支える存在でありたい</p>
+                    
+                    <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8 mb-8">
+                        <a href="tel:0120-43-8639" class="text-white hover:opacity-80 transition-opacity">
+                            <i class="fas fa-phone mr-2"></i>0120-43-8639
+                        </a>
+                        <a href="https://line.me/ti/p/0_Cxj91mML" class="text-white hover:opacity-80 transition-opacity">
+                            <i class="fab fa-line mr-2"></i>LINE相談
+                        </a>
+                        <a href="https://form.run/@century21top" class="text-white hover:opacity-80 transition-opacity">
+                            <i class="fas fa-envelope mr-2"></i>メール相談
+                        </a>
+                    </div>
+                    
+                    <div class="section-divider"></div>
+                    
+                    <p class="text-sm opacity-75">
+                        © 2024 センチュリー21ホームマート All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
